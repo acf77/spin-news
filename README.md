@@ -1,6 +1,5 @@
-# Spin News
-
 ![spin news banner](https://user-images.githubusercontent.com/61336548/129221921-8a186711-e52a-4f5e-9b0c-75dce37db5ec.png)
+# Spin News
 
 Crie e divulgue as notícias da SpinTec do seu celular!
 
