@@ -7,6 +7,7 @@ import {
 import { Montserrat_400Regular } from "@expo-google-fonts/montserrat";
 
 import { Routes } from "./src/routes/Routes";
+import { ContextProvider } from "./src/context/Context";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -16,5 +17,9 @@ export default function App() {
 
   if (!fontsLoaded) return <AppLoading />;
 
-  return <Routes />;
+  return (
+    <ContextProvider>
+      <Routes />
+    </ContextProvider>
+  );
 }
